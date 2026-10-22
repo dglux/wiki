@@ -1,0 +1,1 @@
+{"display":"standalone","scope":"\/","name":"DGLogik","short_name":"DGLogik","description":"","start_url":"\/","background_color":"#ffffff","theme_color":"#eeeeee","icons":[{"src":"https:\/\/wiki.dglogik.com\/_media\/wiki:dokuwiki.svg","sizes":"17x17 512x512","type":"image\/svg+xml"}]}
