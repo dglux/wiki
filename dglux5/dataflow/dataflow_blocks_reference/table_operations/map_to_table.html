@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
+  lang="en" dir="ltr" class="no-js">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Map to Table [DGLogik]</title>
+  <script>(function(H){H.className=H.className.replace(/\bno-js\b/,'js')})(document.documentElement)</script>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="shortcut icon" href="../../../../lib/tpl/bootstrap3/images/favicon.ico" />
+<link rel="apple-touch-icon" href="../../../../lib/tpl/bootstrap3/images/apple-touch-icon.png" />
+      <link type="text/css" rel="stylesheet" href="../../../../lib/tpl/bootstrap3/assets/bootstrap/css/bootstrap.min.css" />
+  <link type="text/css" rel="stylesheet" href="../../../../lib/tpl/bootstrap3/assets/font-awesome/css/font-awesome.min.css" />
+    <script type="text/javascript">/*<![CDATA[*/
+    var TPL_CONFIG = {"tableFullWidth":1};
+  /*!]]>*/</script>
+  <meta name="generator" content="DokuWiki"/>
+<meta name="robots" content="index,follow"/>
+<meta name="keywords" content="dglux5_wiki,home"/>
+<link rel="search" type="application/opensearchdescription+xml" href="../../../../lib/exe/opensearch.xml" title="DGLogik"/>
+<link rel="start" href="../../../../index.html"/>
+<link rel="manifest" href="../../../../lib/exe/manifest.json"/>
+<link rel="alternate" type="application/rss+xml" title="Recent Changes" href="https://wiki.dglogik.com/feed.php"/>
+<link rel="alternate" type="application/rss+xml" title="Current namespace" href="https://wiki.dglogik.com/feed.php?mode=list&amp;ns=dglux5_wiki"/>
+<link rel="alternate" type="text/html" title="Plain HTML" href="../../../home.html"/>
+<link rel="canonical" href="../../../home.html"/>
+<link rel="stylesheet" type="text/css" href="../../../../lib/exe/css.php@t=bootstrap3&amp;tseed=46e7f8b3d45f9a7f961bbae957fbed2f.css"/>
+<!--[if gte IE 9]><!-->
+<script type="text/javascript">/*<![CDATA[*/var NS='dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations';var JSINFO = {"plugins":{"edittable":{"default columnwidth":""}},"bookcreator":{"areToolsVisible":true,"showBookbar":"never"},"isadmin":0,"isauth":0,"id":"dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:map_to_table","namespace":"dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations","ACT":"show","useHeadingNavigation":1,"useHeadingContent":1};
+/*!]]>*/</script>
+<script type="text/javascript" charset="utf-8" src="../../../../lib/exe/jquery.php@tseed=23f888679b4f1dc26eef34902aca964f.js"></script>
+<script type="text/javascript" charset="utf-8" src="../../../../lib/exe/js.php@t=bootstrap3&amp;tseed=46e7f8b3d45f9a7f961bbae957fbed2f&amp;template=bootstrap3.js"></script>
+<!--<![endif]-->
+  <script type="text/javascript" src="../../../../lib/tpl/bootstrap3/assets/bootstrap/js/bootstrap.min.js"></script>
+  <style type="text/css">
+    body { padding-top: 20px; }
+    .toc-affix { z-index:1024; top:10px; right:10px; }
+  </style>
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+  <script type="text/javascript" src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script type="text/javascript" src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body class="default page-on-panel">
+  <!--[if IE 8 ]><div id="IE8"><![endif]-->
+  <div id="dokuwiki__site" class="container-fluid">
+    <div id="dokuwiki__top" class="site dokuwiki mode_show tpl_bootstrap3    hasSidebar">
+
+      
+      <!-- header -->
+      <div id="dokuwiki__header">
+        <nav class="navbar  navbar-default" role="navigation">
+
+  <div class="container-fluid">
+
+    <div class="navbar-header">
+
+      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+      <a href="../../../../home.html"  accesskey="h" title="[H]" class="navbar-brand"><img src="../../../../lib/tpl/bootstrap3/images/logo.png" alt="DGLogik" class="pull-left" id="dw__logo" height="20" /> <span id="dw__title" >DGLogik</span></a>
+    </div>
+
+    <div class="collapse navbar-collapse">
+
+      <ul class="nav navbar-nav" id="dw__navbar">
+        <li>
+  <a href="../../../../home.html" ><i class="fa fa-home"></i> Home</a></li>
+      </ul>
+
+      <div class="navbar-right">
+
+                  <form action="home.html" accept-charset="utf-8" class="navbar-form navbar-left search" id="dw__search" method="get" role="search"><div class="no"><div class="form-group"><input type="hidden" name="do" value="search" /><input id="qsearch__in" type="search" placeholder="Search" accesskey="f" name="id" class="edit form-control" title="[F]" /></div> <button type="submit" class="btn btn-default" title="Search"><i class="glyphicon glyphicon-search"></i><span class="hidden-lg hidden-md hidden-sm"> Search</span></button><div id="qsearch__out" class="panel panel-default ajax_qsearch JSpopup"></div></div></form>        
+        
+<ul class="nav navbar-nav" id="dw__tools">
+
+
+  <li class="dropdown">
+
+    <a href="../../../home.html" class="dropdown-toggle" data-toggle="dropdown" title="">
+      <i class="glyphicon glyphicon-wrench"></i> <span class="hidden-lg hidden-md hidden-sm">Tools</span> <span class="caret"></span>
+    </a>
+
+    <ul class="dropdown-menu tools" role="menu">
+    
+      <li class="dropdown-header">
+        <i class="glyphicon glyphicon-user"></i> User Tools      </li>
+      
+            <li class="divider"></li>
+      
+    
+      <li class="dropdown-header">
+        <i class="glyphicon glyphicon-cog"></i> Site Tools      </li>
+      
+            <li class="divider"></li>
+      
+    
+      <li class="dropdown-header">
+        <i class="glyphicon glyphicon-file"></i> Page Tools      </li>
+      <li><a href="https://wiki.dglogik.com/dglux5_wiki:home?do=edit"  class="action source" accesskey="v" rel="nofollow" title="Show pagesource [V]"><i class="glyphicon glyphicon-edit"></i> Show pagesource</a></li><li><a href="https://wiki.dglogik.com/dglux5_wiki:home?do=revisions"  class="action revs" accesskey="o" rel="nofollow" title="Old revisions [O]"><i class="glyphicon glyphicon-time"></i> Old revisions</a></li><li><a href="https://wiki.dglogik.com/dglux5_wiki:home?do=plugin_bookcreator_addtobook"  class="action plugin_bookcreator_addtobook" rel="nofollow" title="Add to book"><span>Add to book</span></a></li><li><a href="https://wiki.dglogik.com/dglux5_wiki:home?do=export_pdf"  class="action export_pdf" rel="nofollow" title="Export to PDF"><span>Export to PDF</span></a></li><li><a href="../../../home.html#dokuwiki__top"  class="action top" accesskey="t" rel="nofollow" title="Back to top [T]"><i class="glyphicon glyphicon-chevron-up"></i> Back to top</a></li>
+      
+        </ul>
+  </li>
+
+
+</ul>
+
+
+        <ul class="nav navbar-nav">
+
+          
+          
+                    <li>
+            <span class="dw__actions">
+              <a href="https://wiki.dglogik.com/dglux5_wiki:home?do=login&amp;sectok="  class="action login" rel="nofollow" title="Log In"><i class="glyphicon glyphicon-log-in"></i> Log In</a>            </span>
+          </li>
+          
+        </ul>
+
+      </div>
+
+    </div>
+  </div>
+</nav>
+
+      </div>
+      <!-- /header -->
+
+            
+            <div id="dw__breadcrumbs">
+        <hr/>
+                <div class="dw__youarehere">
+          <span class="bchead">You are here: </span><span class="home"><bdi><a href="../../../../home.html" class="wikilink1" title="home">DGLogik</a></bdi></span> <bdi><a href="../../../home.html" class="wikilink1" title="dglux5_wiki:home">DGLux5</a></bdi> <bdi><a href="../../home.html" class="wikilink1" title="dglux5_wiki:dataflow:home">Dataflow</a></bdi> <bdi><a href="../home.html" class="wikilink1" title="dglux5_wiki:dataflow:dataflow_blocks_reference:home">Dataflow Blocks Reference</a></bdi> <bdi><a href="home.html" class="wikilink1" title="dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:home">table_operations</a></bdi> <bdi><span class="curid"><a href="map_to_table.html" class="wikilink1" title="dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:map_to_table">Map to Table</a></span></bdi>        </div>
+                        <hr/>
+      </div>
+      
+      <p class="pageId text-right">
+        <span class="label label-primary">dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:map_to_table</span>
+      </p>
+
+      <div id="dw__msgarea">
+              </div>
+
+      <main class="main row" role="main">
+
+        <!-- ********** ASIDE ********** -->
+<aside id="dokuwiki__aside" class="dw__sidebar col-sm-3 col-md-3 hidden-print">
+  <div class="content">
+    <div class="toogle hidden-lg hidden-md hidden-sm" data-toggle="collapse" data-target="#dokuwiki__aside .collapse">
+      <i class="glyphicon glyphicon-th-list"></i> Sidebar    </div>
+    <div class="collapse in">
+            <body><div><div id="nojs_indexmenu_1854719989680188ee2ba3d" data-jsajax="%26sort%3Dt%26msort%3Dindexmenu_n%26nsort%3D1%26skipns%3D%252B/niagara_analytics_explorer/%26skipfile%3D%252B/sidebar/" class="indexmenu_nojs">
+
+<ul class="nav nav-pills nav-stacked">
+<li class="closed"><a href="../../../using_this_wiki/home.html" class="indexmenu_idx_head">Using This Wiki</a></li>
+<li class="closed"><a href="../../../installation/home.html" class="indexmenu_idx_head">Install and Update</a></li>
+<li class="closed"><a href="../../../workspace_and_workflow/home.html" class="indexmenu_idx_head">Workspace and Workflow</a></li>
+</ul>
+</div></div>
+<script type="text/javascript" charset="utf-8">
+<!--//--><![CDATA[//><!--
+var indexmenu_1854719989680188ee2ba3d = new dTree('indexmenu_1854719989680188ee2ba3d','thread');
+indexmenu_1854719989680188ee2ba3d.config.urlbase='/';
+indexmenu_1854719989680188ee2ba3d.config.sepchar=':';
+indexmenu_1854719989680188ee2ba3d.config.scroll=false;
+indexmenu_1854719989680188ee2ba3d.config.jsajax='%26sort%3Dt%26msort%3Dindexmenu_n%26nsort%3D1%26skipns%3D%252B/niagara_analytics_explorer/%26skipfile%3D%252B/sidebar/';
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki',0,-1,"DGLux5",'dglux5_wiki:home');
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:using_this_wiki',1,0,"Using This Wiki",'dglux5_wiki:using_this_wiki:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:installation',2,0,"Install and Update",'dglux5_wiki:installation:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:installation:dsa-dglux5',3,2,"Install DGLux5 with DSA",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:installation:niagara4',4,2,"Install DGLux5 for Niagara 4",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:installation:niagaraax',5,2,"Install DGLux5 for Niagara AX",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:installation:dgserver',6,2,"Install DGLux5 Server",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:installation:updating',7,2,"Update DGLux5",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:installation:uninstalling',8,2,"Uninstall DGLux",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:installation:updating_pa',9,2,"Update Project Assist",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:installation:install_nginx',10,2,"Install NGINX with DGLux Server",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:installation:custom_logo',11,2,"Configure Custom Logo for Login Page and Designer",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:installation:topics',12,2,"What is Topic?",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:workspace_and_workflow',13,0,"Workspace and Workflow",'dglux5_wiki:workspace_and_workflow:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:workspace_and_workflow:themes',14,13,"Themes",'dglux5_wiki:workspace_and_workflow:themes:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:workspace_and_workflow:workspace_basics',15,13,"Default Workspace",'dglux5_wiki:workspace_and_workflow:workspace_basics:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:workspace_and_workflow:manage_panels',16,13,"Manage Panels",'dglux5_wiki:workspace_and_workflow:manage_panels:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:workspace_and_workflow:manage_panels:dock_and_undock',17,16,"Dock and Undock Panels",'dglux5_wiki:workspace_and_workflow:manage_panels:dock_and_undock:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:workspace_and_workflow:manage_panels:work_behind',18,16,"Work Behind Panels",'dglux5_wiki:workspace_and_workflow:manage_panels:work_behind:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:workspace_and_workflow:manage_panels:edit_enter',19,16,"Enter and Edit Values",'dglux5_wiki:workspace_and_workflow:manage_panels:edit_enter:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:workspace_and_workflow:panels_and_menus',20,13,"Panels and Menus",'dglux5_wiki:workspace_and_workflow:panels_and_menus:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:workspace_and_workflow:panels_and_menus:project_panel',21,20,"Project Panel",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:workspace_and_workflow:panels_and_menus:data_panel',22,20,"Data Panel",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:workspace_and_workflow:panels_and_menus:details_panel',23,20,"Details Panel",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:workspace_and_workflow:panels_and_menus:metrics_panel',24,20,"Metrics Panel",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:workspace_and_workflow:panels_and_menus:document_window',25,20,"Document Window",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:workspace_and_workflow:panels_and_menus:properties_panel',26,20,"Property Inspector",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:workspace_and_workflow:panels_and_menus:advanced_panel',27,20,"Advanced Properties Panel",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:workspace_and_workflow:panels_and_menus:actions_panel',28,20,"Actions Panel",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:workspace_and_workflow:panels_and_menus:outline',29,20,"Outline",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:workspace_and_workflow:panels_and_menus:symbols_panel',30,20,"Symbols Panel",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:workspace_and_workflow:panels_and_menus:tools_panel',31,20,"Tools and Quick Access Panels",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:workspace_and_workflow:panels_and_menus:widget_palette',32,20,"Widget Palette",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:workspace_and_workflow:panels_and_menus:favorites_popup',33,20,"Favorites Pop-Ups",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:workspace_and_workflow:panels_and_menus:color_pop',34,20,"Fill and Border Pop-Ups",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:workspace_and_workflow:panels_and_menus:main_menu',35,20,"Main Menu",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:workspace_and_workflow:panels_and_menus:context_menu',36,20,"Context Menu",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:workspace_and_workflow:panels_and_menus:property_options',37,20,"Property Options Menu",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:workspace_and_workflow:projects_and_files',38,13,"Projects and DG5 Files",'dglux5_wiki:workspace_and_workflow:projects_and_files:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:workspace_and_workflow:projects_and_files:create_project',39,38,"Create a New Project",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:workspace_and_workflow:projects_and_files:use_template',40,38,"Use a Template",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:workspace_and_workflow:projects_and_files:create_template',41,38,"Create a Template",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:workspace_and_workflow:projects_and_files:open_project',42,38,"Open a Project",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:workspace_and_workflow:projects_and_files:import_project',43,38,"Import a Project",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:workspace_and_workflow:projects_and_files:export_project',44,38,"Export a Project",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:workspace_and_workflow:projects_and_files:about_dg5',45,38,"DG5 Files",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:workspace_and_workflow:projects_and_files:files',46,38,"Add Other Files",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:workspace_and_workflow:projects_and_files:import_dg5',47,38,"Export and Import a DG5 File",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:workspace_and_workflow:projects_and_files:project_directories',48,38,"Project Directories",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:workspace_and_workflow:projects_and_files:permissions',49,38,"Project Permissions",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:workspace_and_workflow:undo_and_history',50,13,"Undo and History",'dglux5_wiki:workspace_and_workflow:undo_and_history:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:workspace_and_workflow:grid_and_snapping',51,13,"Snapping",'dglux5_wiki:workspace_and_workflow:grid_and_snapping:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:workspace_and_workflow:edit_preview',52,13,"Edit and Preview",'dglux5_wiki:workspace_and_workflow:edit_preview:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:workspace_and_workflow:viewer',53,13,"The Viewer",'dglux5_wiki:workspace_and_workflow:viewer:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:workspace_and_workflow:keyboard_shortcuts',54,13,"Keyboard Shortcuts",'dglux5_wiki:workspace_and_workflow:keyboard_shortcuts:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:getting_started',55,0,"Get Started",'dglux5_wiki:getting_started:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:getting_started:create_project',56,55,"Create a Project",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:getting_started:create_page',57,55,"Create a Simple Page",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:getting_started:save_files',58,55,"Save a File",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:getting_started:preview_project',59,55,"Preview a Project",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:getting_started:deploy_project',60,55,"Deploy a Project",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:getting_started:access_dsa_data',61,55,"Access DSA Data",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:getting_started:access_data',62,55,"Access Other Data",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:getting_started:other_options',63,55,"Other Options for Getting Started",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:getting_started:next_steps',64,55,"Next Steps",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:project_assist',65,0,"Project Assist 2.0",'dglux5_wiki:project_assist:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:project_assist:2_0_v7',66,65,"Project Assist 2.0, Version 7",'dglux5_wiki:project_assist:2_0_v7:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:project_assist:2_0_v7:installation',67,66,"Requirements and Installation",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:project_assist:2_0_v7:get_started',68,66,"Get Started",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:project_assist:2_0_v7:apply_style',69,66,"Apply a Style",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:project_assist:2_0_v7:edit_style',70,66,"Edit a Style",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:project_assist:2_0_v7:navigation_manager',71,66,"Video: Manage Navigation",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:project_assist:2_0_v7:location_nodes',72,66,"Add Location Nodes",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:project_assist:2_0_v7:device_nodes',73,66,"Add Device Nodes",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:project_assist:2_0_v7:module_nodes',74,66,"Add Module Nodes",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:project_assist:2_0_v7:generic_node',75,66,"Add a Generic Node",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:project_assist:2_0_v7:navigation_icons',76,66,"Add Navigation Icons",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:project_assist:2_0_v7:pages_popups',77,66,"Pages and Pop-Ups",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:project_assist:2_0_v7:dashboard_manager',78,66,"Videos: Manage Dashboards",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:project_assist:2_0_v7:location_page',79,66,"Create a Location Page",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:project_assist:2_0_v7:add_zone',80,66,"Add a Zone",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:project_assist:2_0_v7:zone_navigation',81,66,"Bind to a Zone",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:project_assist:2_0_v7:layer_manager',82,66,"Manage Layers",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:project_assist:2_0_v7:device_templates',83,66,"Create a Device Template",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:project_assist:2_0_v7:add_widgets',84,66,"Add a Widget",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:project_assist:2_0_v7:dashboard_builder',85,66,"Reports Module",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:project_assist:2_0_v7:alarm_console',86,66,"Alarm Console Module",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:project_assist:2_0_v7:calendar_schedule',87,66,"Calendar Schedule Module",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:project_assist:2_0_v7:weekly_schedule',88,66,"Weekly Schedule Module",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:project_assist:2_0_v7:preview_project',89,66,"Preview a Project",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:project_assist:2_0_v7:deploy_project',90,66,"Deploy a Project",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:project_assist:2_0_v7:create_widget',91,66,"Include Your Own Widget in Project Assist",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:project_assist:2_0_v10',92,65,"Project Assist 2.0, Version 10",'dglux5_wiki:project_assist:2_0_v10:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:project_assist:2_0_v10:release_notes',93,92,"Release Notes",'dglux5_wiki:project_assist:2_0_v10:release_notes:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:project_assist:2_0_v10:installation',94,92,"Installing Project Assist",'dglux5_wiki:project_assist:2_0_v10:installation:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:project_assist:2_0_v10:start',95,92,"How to Start and Open Projects (PA)",'dglux5_wiki:project_assist:2_0_v10:start:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:project_assist:2_0_v10:import_export',96,92,"How to Import and Export Files (PA)",'dglux5_wiki:project_assist:2_0_v10:import_export:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:project_assist:2_0_v10:style',97,92,"Style (PA)",'dglux5_wiki:project_assist:2_0_v10:style:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:project_assist:2_0_v10:organize',98,92,"Organize (PA)",'dglux5_wiki:project_assist:2_0_v10:organize:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:project_assist:2_0_v10:build',99,92,"Build (PA)",'dglux5_wiki:project_assist:2_0_v10:build:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:project_assist:2_0_v10:build:images',100,99,"Images (PA)",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:project_assist:2_0_v10:build:zones',101,99,"Zones (PA)",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:project_assist:2_0_v10:build:layers',102,99,"Layers (PA)",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:project_assist:2_0_v10:build:widgets',103,99,"Widgets and Other Objects (PA)",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:project_assist:2_0_v10:build:date',104,99,"Global Date Range (PA)",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:project_assist:2_0_v10:build:bindings',105,99,"Bindings (PA)",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:project_assist:2_0_v10:build:actions',106,99,"Actions (PA)",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:project_assist:2_0_v10:build:symbols',107,99,"Custom Symbols (PA)",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:project_assist:2_0_v10:build:dataflow',108,99,"Dataflow (PA)",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:project_assist:2_0_v10:preview',109,92,"Preview and Modules (PA)",'dglux5_wiki:project_assist:2_0_v10:preview:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:project_assist:2_0_v10:users',110,92,"User Permissions (PA)",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:project_assist:2_0_v10:launch',111,92,"Launch (PA)",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:widgets_and_property_inspector',112,0,"Components and Widgets",'dglux5_wiki:widgets_and_property_inspector:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:widgets_and_property_inspector:essentials',113,112,"Component and Widget Essentials",'dglux5_wiki:widgets_and_property_inspector:essentials:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:widgets_and_property_inspector:shapes_paths',114,112,"Shapes and Paths",'dglux5_wiki:widgets_and_property_inspector:shapes_paths:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:widgets_and_property_inspector:components',115,112,"Core Components",'dglux5_wiki:widgets_and_property_inspector:components:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:widgets_and_property_inspector:components:text',116,115,"Text",'dglux5_wiki:widgets_and_property_inspector:components:text:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:widgets_and_property_inspector:components:image',117,115,"Image",'dglux5_wiki:widgets_and_property_inspector:components:image:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:widgets_and_property_inspector:components:group',118,115,"Group",'dglux5_wiki:widgets_and_property_inspector:components:group:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:widgets_and_property_inspector:components:layer',119,115,"Layer",'dglux5_wiki:widgets_and_property_inspector:components:layer:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:widgets_and_property_inspector:components:view_deck',120,115,"View Deck",'dglux5_wiki:widgets_and_property_inspector:components:view_deck:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:widgets_and_property_inspector:components:google_map',121,115,"Google Map",'dglux5_wiki:widgets_and_property_inspector:components:google_map:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:widgets_and_property_inspector:components:mapbox_gl_map',122,115,"Mapbox GL Map",'dglux5_wiki:widgets_and_property_inspector:components:mapbox_gl_map:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:widgets_and_property_inspector:components:mapbox_gl_map:properties',123,122,"Mapbox GL Map Properties",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:widgets_and_property_inspector:components:map_group',124,115,"Map Group",'dglux5_wiki:widgets_and_property_inspector:components:map_group:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:widgets_and_property_inspector:components:esri_map',125,115,"ESRI Map",'dglux5_wiki:widgets_and_property_inspector:components:esri_map:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:widgets_and_property_inspector:components:esri_map:properties',126,125,"ESRI Map Properties",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:widgets_and_property_inspector:components:iframe',127,115,"IFrame",'dglux5_wiki:widgets_and_property_inspector:components:iframe:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:widgets_and_property_inspector:components:page_include',128,115,"Page Include",'dglux5_wiki:widgets_and_property_inspector:components:page_include:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:widgets_and_property_inspector:components:data_grid',129,115,"Data Grid",'dglux5_wiki:widgets_and_property_inspector:components:data_grid:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:widgets_and_property_inspector:components:video',130,115,"Video",'dglux5_wiki:widgets_and_property_inspector:components:video:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:widgets_and_property_inspector:components:symbols',131,115,"Symbol",'dglux5_wiki:widgets_and_property_inspector:components:symbols:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:widgets_and_property_inspector:components:heat_map',132,115,"Heat Map",'dglux5_wiki:widgets_and_property_inspector:components:heat_map:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:widgets_and_property_inspector:components:calendar',133,115,"Calendar",'dglux5_wiki:widgets_and_property_inspector:components:calendar:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:widgets_and_property_inspector:components:date_range',134,115,"Date Range Picker",'dglux5_wiki:widgets_and_property_inspector:components:date_range:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:widgets_and_property_inspector:components:tree',135,115,"Tree",'dglux5_wiki:widgets_and_property_inspector:components:tree:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:widgets_and_property_inspector:components:tree_grid',136,115,"Tree Grid",'dglux5_wiki:widgets_and_property_inspector:components:tree_grid:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:widgets_and_property_inspector:components:topology',137,115,"Topology",'dglux5_wiki:widgets_and_property_inspector:components:topology:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:widgets_and_property_inspector:charts',138,112,"Charts",'dglux5_wiki:widgets_and_property_inspector:charts:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:widgets_and_property_inspector:charts:designing',139,138,"Designing Charts",'dglux5_wiki:widgets_and_property_inspector:charts:designing:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:widgets_and_property_inspector:charts:chart',140,138,"Chart",'dglux5_wiki:widgets_and_property_inspector:charts:chart:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:widgets_and_property_inspector:charts:raw_svg_repeater',141,138,"Raw SVG Repeater",'dglux5_wiki:widgets_and_property_inspector:charts:raw_svg_repeater:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:widgets_and_property_inspector:gauges',142,112,"Gauges",'dglux5_wiki:widgets_and_property_inspector:gauges:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:widgets_and_property_inspector:gauges:designing',143,142,"Designing Gauges",'dglux5_wiki:widgets_and_property_inspector:gauges:designing:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:widgets_and_property_inspector:gauges:ticks',144,142,"Scale Ticks",'dglux5_wiki:widgets_and_property_inspector:gauges:ticks:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:widgets_and_property_inspector:gauges:labels',145,142,"Scale Labels",'dglux5_wiki:widgets_and_property_inspector:gauges:labels:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:widgets_and_property_inspector:gauges:track',146,142,"Scale Track",'dglux5_wiki:widgets_and_property_inspector:gauges:track:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:widgets_and_property_inspector:form_input',147,112,"Form Input",'dglux5_wiki:widgets_and_property_inspector:form_input:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:widgets_and_property_inspector:form_input:designing',148,147,"Designing Input Components",'dglux5_wiki:widgets_and_property_inspector:form_input:designing:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:widgets_and_property_inspector:form_input:text',149,147,"Text Input",'dglux5_wiki:widgets_and_property_inspector:form_input:text:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:widgets_and_property_inspector:form_input:text_area',150,147,"Text Area",'dglux5_wiki:widgets_and_property_inspector:form_input:text_area:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:widgets_and_property_inspector:form_input:password',151,147,"Password Input",'dglux5_wiki:widgets_and_property_inspector:form_input:password:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:widgets_and_property_inspector:form_input:date',152,147,"Date Input",'dglux5_wiki:widgets_and_property_inspector:form_input:date:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:widgets_and_property_inspector:form_input:dg_time',153,147,"DG Time Input",'dglux5_wiki:widgets_and_property_inspector:form_input:dg_time:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:widgets_and_property_inspector:form_input:color',154,147,"Color Input",'dglux5_wiki:widgets_and_property_inspector:form_input:color:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:widgets_and_property_inspector:form_input:number',155,147,"Number Input",'dglux5_wiki:widgets_and_property_inspector:form_input:number:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:widgets_and_property_inspector:form_input:range',156,147,"Range Input",'dglux5_wiki:widgets_and_property_inspector:form_input:range:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:widgets_and_property_inspector:form_input:file',157,147,"File Input",'dglux5_wiki:widgets_and_property_inspector:form_input:file:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:widgets_and_property_inspector:form_input:list',158,147,"List Input",'dglux5_wiki:widgets_and_property_inspector:form_input:list:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:widgets_and_property_inspector:repeaters',159,112,"Repeaters",'dglux5_wiki:widgets_and_property_inspector:repeaters:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:widgets_and_property_inspector:callouts',160,112,"Callouts",'dglux5_wiki:widgets_and_property_inspector:callouts:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:widgets_and_property_inspector:layouts',161,112,"Layout",'dglux5_wiki:widgets_and_property_inspector:layouts:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:widgets_and_property_inspector:layouts:layout_basics',162,161,"Layout Basics",'dglux5_wiki:widgets_and_property_inspector:layouts:layout_basics:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:widgets_and_property_inspector:layouts:absolute_layout',163,161,"Absolute Layout",'dglux5_wiki:widgets_and_property_inspector:layouts:absolute_layout:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:widgets_and_property_inspector:layouts:vertical_layout',164,161,"Vertical Layout",'dglux5_wiki:widgets_and_property_inspector:layouts:vertical_layout:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:widgets_and_property_inspector:layouts:horizontal_layout',165,161,"Horizontal Layout",'dglux5_wiki:widgets_and_property_inspector:layouts:horizontal_layout:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:widgets_and_property_inspector:layouts:flexsize',166,161,"Flex-Grow and Flex-Shrink",'dglux5_wiki:widgets_and_property_inspector:layouts:flexsize:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:widgets_and_property_inspector:property_inspector',167,112,"Properties Reference",'dglux5_wiki:widgets_and_property_inspector:property_inspector:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:widgets_and_property_inspector:property_inspector:allcomponents',168,167,"Common Properties",'dglux5_wiki:widgets_and_property_inspector:property_inspector:allcomponents:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:widgets_and_property_inspector:property_inspector:allcomponents:general',169,168,"General Properties",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:widgets_and_property_inspector:property_inspector:allcomponents:scrolling',170,168,"Scrolling Properties",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:widgets_and_property_inspector:property_inspector:allcomponents:selection',171,168,"Selection Properties",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:widgets_and_property_inspector:property_inspector:allcomponents:fill_stroke',172,168,"Fill and Stroke Properties",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:widgets_and_property_inspector:property_inspector:allcomponents:rounded_corners',173,168,"Rounded Corners Properties",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:widgets_and_property_inspector:property_inspector:allcomponents:effects',174,168,"Effects Properties",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:widgets_and_property_inspector:property_inspector:allcomponents:position_size',175,168,"Position and Size Properties",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:widgets_and_property_inspector:property_inspector:allcomponents:transform',176,168,"Transform Properties",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:widgets_and_property_inspector:property_inspector:allcomponents:callout',177,168,"Callout Properties",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:widgets_and_property_inspector:property_inspector:group',178,167,"Group and Stage Properties",'dglux5_wiki:widgets_and_property_inspector:property_inspector:group:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:widgets_and_property_inspector:property_inspector:group:layout',179,178,"Layout Properties",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:widgets_and_property_inspector:property_inspector:group:scaling',180,178,"Scaling Properties",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:widgets_and_property_inspector:property_inspector:layer',181,167,"Layer Properties",'dglux5_wiki:widgets_and_property_inspector:property_inspector:layer:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:widgets_and_property_inspector:property_inspector:shape',182,167,"Shape Properties",'dglux5_wiki:widgets_and_property_inspector:property_inspector:shape:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:widgets_and_property_inspector:property_inspector:textbox',183,167,"Text Component Properties",'dglux5_wiki:widgets_and_property_inspector:property_inspector:textbox:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:widgets_and_property_inspector:property_inspector:image',184,167,"Image Properties",'dglux5_wiki:widgets_and_property_inspector:property_inspector:image:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:widgets_and_property_inspector:property_inspector:viewdeck',185,167,"View Deck Properties",'dglux5_wiki:widgets_and_property_inspector:property_inspector:viewdeck:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:widgets_and_property_inspector:property_inspector:map',186,167,"Google Map Properties",'dglux5_wiki:widgets_and_property_inspector:property_inspector:map:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:widgets_and_property_inspector:property_inspector:iframe',187,167,"IFrame Properties",'dglux5_wiki:widgets_and_property_inspector:property_inspector:iframe:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:widgets_and_property_inspector:property_inspector:pageinclude',188,167,"Page Include Properties",'dglux5_wiki:widgets_and_property_inspector:property_inspector:pageinclude:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:widgets_and_property_inspector:property_inspector:datagrid',189,167,"Data Grid Properties",'dglux5_wiki:widgets_and_property_inspector:property_inspector:datagrid:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:widgets_and_property_inspector:property_inspector:video',190,167,"Video Properties",'dglux5_wiki:widgets_and_property_inspector:property_inspector:video:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:widgets_and_property_inspector:property_inspector:heatmap',191,167,"Heat Map Properties",'dglux5_wiki:widgets_and_property_inspector:property_inspector:heatmap:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:widgets_and_property_inspector:property_inspector:symbol',192,167,"Symbol Properties",'dglux5_wiki:widgets_and_property_inspector:property_inspector:symbol:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:widgets_and_property_inspector:property_inspector:calendar',193,167,"Calendar Properties",'dglux5_wiki:widgets_and_property_inspector:property_inspector:calendar:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:widgets_and_property_inspector:property_inspector:daterange',194,167,"Date Range Picker Properties",'dglux5_wiki:widgets_and_property_inspector:property_inspector:daterange:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:widgets_and_property_inspector:property_inspector:tree',195,167,"Tree Properties",'dglux5_wiki:widgets_and_property_inspector:property_inspector:tree:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:widgets_and_property_inspector:property_inspector:charts',196,167,"Chart Properties",'dglux5_wiki:widgets_and_property_inspector:property_inspector:charts:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:widgets_and_property_inspector:property_inspector:charts:datatips',197,196,"Datatips Properties",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:widgets_and_property_inspector:property_inspector:charts:series',198,196,"Series Properties",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:widgets_and_property_inspector:property_inspector:charts:axis',199,196,"Axis Properties",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:widgets_and_property_inspector:property_inspector:charts:plot_area',200,196,"Plot Area Properties",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:widgets_and_property_inspector:property_inspector:charts:pie',201,196,"Pie Chart Properties",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:widgets_and_property_inspector:property_inspector:rawsvgrepeater',202,167,"Raw SVG Repeater Properties",'dglux5_wiki:widgets_and_property_inspector:property_inspector:rawsvgrepeater:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:widgets_and_property_inspector:property_inspector:gaugescales',203,167,"Gauge Scale Properties",'dglux5_wiki:widgets_and_property_inspector:property_inspector:gaugescales:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:widgets_and_property_inspector:property_inspector:input',204,167,"Input Component Properties",'dglux5_wiki:widgets_and_property_inspector:property_inspector:input:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:widgets_and_property_inspector:box-sizing',205,112,"Borders, Padding, and Content Size",'dglux5_wiki:widgets_and_property_inspector:box-sizing:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:widgets_and_property_inspector:creation_policy',206,112,"creationPolicy",'dglux5_wiki:widgets_and_property_inspector:creation_policy:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:widgets_and_property_inspector:click_through',207,112,"clickThrough",'dglux5_wiki:widgets_and_property_inspector:click_through:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:bindings',208,0,"Bindings",'dglux5_wiki:bindings:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:actions',209,0,"Actions",'dglux5_wiki:actions:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow',210,0,"Dataflow",'dglux5_wiki:dataflow:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:project_dataflow',211,210,"Project Dataflow",'dglux5_wiki:dataflow:project_dataflow:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:working_with_tables',212,210,"Tables",'dglux5_wiki:dataflow:working_with_tables:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:symbols_repeaters',213,210,"Dataflow Symbols and Dataflow Repeaters",'dglux5_wiki:dataflow:symbols_repeaters:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference',214,210,"Dataflow Blocks Reference",'dglux5_wiki:dataflow:dataflow_blocks_reference:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:variables',215,214,"Variables",'dglux5_wiki:dataflow:dataflow_blocks_reference:variables:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:variables:string',216,215,"String",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:variables:number',217,215,"Number",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:variables:boolean',218,215,"Boolean",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:variables:color',219,215,"Color",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:variables:binary',220,215,"Binary",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:variables:table',221,215,"Table",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:data_services',222,214,"Data Services",'dglux5_wiki:dataflow:dataflow_blocks_reference:data_services:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:data_services:list_node',223,222,"List Node",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:data_services:get_default',224,222,"Get Default Parameters",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:data_services:string_loader',225,222,"String Loader",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:data_services:string_uploader',226,222,"String Uploader",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:data_services:list_files',227,222,"List Files",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:data_services:get_children',228,222,"Get Children",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:data_services:get_node',229,222,"Get Node",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:data_services:project-info',230,222,"Project Info",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:data_services:relativize',231,222,"Relativize",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:data_services:multi-histories',232,222,"Multi-Histories",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:data_services:zip-upload',233,222,"Zip Upload",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:data_services:zip-download',234,222,"Zip Download",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:data_services:zip-parser',235,222,"Zip Parser",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:data_services:load_value',236,222,"Load Value",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:data_services:load_history',237,222,"Load History",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:data_services:download_file',238,222,"Download File",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:browser_api',239,214,"Browser API",'dglux5_wiki:dataflow:dataflow_blocks_reference:browser_api:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:browser_api:jsonp_loader',240,239,"JSONP Loader",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:browser_api:geo-location',241,239,"Geo-Location",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:browser_api:device-orientation',242,239,"Device Orientation",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:browser_api:device-motion',243,239,"Device Motion",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:browser_api:web-document',244,239,"Web Document",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:browser_api:local_storage',245,239,"Local Storage",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:browser_api:blob_url',246,239,"Blob URL",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:browser_api:iframe_message',247,239,"IFrame Message",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:browser_api:export_html',248,239,"Export HTML",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:browser_api:export_pdf',249,239,"Export Paginated PDF",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:browser_api:get_view_property',250,239,"Get View Property",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:browser_api:javascript',251,239,"JavaScript",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:browser_api:close_warning_dialog',252,239,"Close Warning Dialog",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:logic',253,214,"Logic",'dglux5_wiki:dataflow:dataflow_blocks_reference:logic:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:logic:operations_and',254,253,"And",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:logic:operations_or',255,253,"Or",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:logic:operations_not',256,253,"Not",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:logic:if',257,253,"If",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:logic:case',258,253,"Case",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:logic:hub',259,253,"Hub",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:logic:event_gate',260,253,"Event Gate",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:logic:script',261,253,"Script",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:logic:trace',262,253,"Trace",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:logic:stop_watch',263,253,"Stop Watch",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:logic:delay',264,253,"Delay",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:logic:state',265,253,"State",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:logic:mouse_event',266,253,"Mouse Event",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:logic:keyboard_event',267,253,"Keyboard Event",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:logic:scroll_event',268,253,"Scroll Event",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:logic:resize_event',269,253,"Resize Event",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:logic:drag_position',270,253,"Drag Position",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:logic:drag_size',271,253,"Drag Size",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:logic:catch_error',272,253,"Catch Error",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:logic:repeater',273,253,"Repeater",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:logic:make_object',274,253,"Make Object",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:logic:map_series_data',275,253,"Map Series Data",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:logic:router',276,253,"Router",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:logic:property_hub',277,253,"Property Hub",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:logic:property_hub_modifier',278,253,"Property Hub Modifier",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:logic:symbol_profiler',279,253,"Symbol Profiler",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:logic:open_wizard',280,253,"Open Wizard",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:string_operations',281,214,"String Operations",'dglux5_wiki:dataflow:dataflow_blocks_reference:string_operations:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:string_operations:concatenate',282,281,"Concatenate",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:string_operations:left',283,281,"Left",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:string_operations:length',284,281,"Length",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:string_operations:right',285,281,"Right",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:string_operations:subst_block',286,281,"Substring",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:string_operations:replace',287,281,"Replace",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:string_operations:trim',288,281,"Trim",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:string_operations:split',289,281,"Split",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:string_operations:localize',290,281,"Localize",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:math_operations',291,214,"Math Operations",'dglux5_wiki:dataflow:dataflow_blocks_reference:math_operations:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:math_operations:add',292,291,"Add",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:math_operations:divide',293,291,"Divide",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:math_operations:factorial',294,291,"Factorial",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:math_operations:logarithm',295,291,"Logarithm",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:math_operations:modulo',296,291,"Modulo",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:math_operations:multiply',297,291,"Multiply",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:math_operations:power',298,291,"Power",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:math_operations:root',299,291,"Root",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:math_operations:scale',300,291,"Scale",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:math_operations:subtract',301,291,"Subtract",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:number_formatting',302,214,"Number Formatting",'dglux5_wiki:dataflow:dataflow_blocks_reference:number_formatting:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:number_formatting:absolute',303,302,"Absolute",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:number_formatting:bound',304,302,"Bound",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:number_formatting:round',305,302,"Round",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:number_formatting:round_up',306,302,"Round Up",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:number_formatting:round_down',307,302,"Round Down",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:number_formatting:gradient_mapping',308,302,"Gradient Mapping",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:number_formatting:format_number',309,302,"Format Number",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:number_formatting:parse_number',310,302,"Parse Number",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:statistical_functions',311,214,"Statistical Functions",'dglux5_wiki:dataflow:dataflow_blocks_reference:statistical_functions:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:statistical_functions:average',312,311,"Average",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:statistical_functions:max',313,311,"Maximum",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:statistical_functions:median',314,311,"Median",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:statistical_functions:min',315,311,"Minimum",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:statistical_functions:mode',316,311,"Mode",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:statistical_functions:std_deviation',317,311,"Standard Deviation",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:statistical_functions:variance',318,311,"Variance",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:trigonometric_functions',319,214,"Trigonometric Functions",'dglux5_wiki:dataflow:dataflow_blocks_reference:trigonometric_functions:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:trigonometric_functions:arc_cosine',320,319,"Arc Cosine",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:trigonometric_functions:arc_sine',321,319,"Arc Sine",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:trigonometric_functions:arc_tangent',322,319,"Arc Tangent",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:trigonometric_functions:cosine',323,319,"Cosine",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:trigonometric_functions:cotangent',324,319,"Cotangent",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:trigonometric_functions:degree',325,319,"Degree",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:trigonometric_functions:radian',326,319,"Radian",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:trigonometric_functions:sine',327,319,"Sine",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:trigonometric_functions:tangent',328,319,"Tangent",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations',329,214,"Table Operations",'dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:csv_parser',330,329,"CSV Parser",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:csv_writer',331,329,"CSV Writer",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:json_parser',332,329,"JSON Parser",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:table_to_json_string',333,329,"Table to JSON String",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:column_mapping',334,329,"Column Mapping",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:sort',335,329,"Sort",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:filter',336,329,"Filter",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:group_by',337,329,"Group By",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:join',338,329,"Join",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:multijoin',339,329,"Multi-Join",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:page',340,329,"Page",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:aggregation',341,329,"Aggregation",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:rollup',342,329,"Rollup",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:advanced_rollup',343,329,"Advanced Rollup",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:select_rows',344,329,"Select Rows",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:select_columns',345,329,"Select Columns",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:get_columns',346,329,"Get Columns",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:table_row_cells',347,329,"Table Row Cells",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:add_row',348,329,"Add Row",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:remove_rows',349,329,"Remove Rows",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:edit_rows',350,329,"Edit Rows",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:transpose',351,329,"Transpose",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:realtime_recorder',352,329,"Realtime Recorder",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:series_realtime_recorder',353,329,"Series Realtime Recorder",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:map_to_table',354,329,"Map to Table",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:date_time_operations',355,214,"Date Time Operations",'dglux5_wiki:dataflow:dataflow_blocks_reference:date_time_operations:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:date_time_operations:date_time',356,355,"Date Time",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:date_time_operations:date_format',357,355,"Date Format",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:date_time_operations:parse_date_time',358,355,"Parse Date Time",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:date_time_operations:date_math',359,355,"Date Math",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:date_time_operations:date_range',360,355,"Date Range",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:constants',361,214,"Constants",'dglux5_wiki:dataflow:dataflow_blocks_reference:constants:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:constants:pi',362,361,"Pi",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:constants:e',363,361,"E",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:constants:sqrt2',364,361,"SQRT2",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:constants:ln2',365,361,"LN2",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:constants:ln10',366,361,"LN10",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:constants:log2e',367,361,"LOG2E",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:constants:log10e',368,361,"LOG10E",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:constants:nan',369,361,"NAN",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dataflow:dataflow_blocks_reference:bindings',370,214,"Query Binding and Value Binding",'dglux5_wiki:dataflow:dataflow_blocks_reference:bindings:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dgscript',371,0,"Scripting and Syntax",'dglux5_wiki:dgscript:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dgscript:language',372,371,"Language Basics",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dgscript:page_model',373,371,"Page Model",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dgscript:debugging',374,371,"Debugging",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dgscript:strings',375,371,"Strings and Regular Expressions",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dgscript:numbers_math',376,371,"Numbers and Math",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dgscript:datetime',377,371,"Dates and Times",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dgscript:lists_maps',378,371,"Lists and Maps",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dgscript:json_xml',379,371,"JSON and XML",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dgscript:tables',380,371,"Tables",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dgscript:model_functions',381,371,"Model Functions",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dgscript:http_and_utilities',382,371,"HTTP Requests and Browser Utilities",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dgscript:examples',383,371,"Examples",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dgscript:custom_javascript',384,371,"Custom JS Components",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dgscript:custom_div',385,371,"Using Custom div Elements",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:support',386,0,"Support",'dglux5_wiki:support:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:releases',387,0,"Release Notes",'dglux5_wiki:releases',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:releases:1415',388,387,"Version 1.1.8750 (March 2019)",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:releases:8980',389,387,"Version 1.1.8980 (August 2019)",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:releases:9012',390,387,"Version 1.1.9012 (September 2019)",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:releases:9198',391,387,"Version 1.1.9198 (April 2020)",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:releases:9235',392,387,"Version 1.1.9235 (May 2020)",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:releases:9238',393,387,"Version 1.1.9238 (July 2020)",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:releases:9443',394,387,"Version 1.1.9443 (March 2021)",0,0,0);
+document.write(indexmenu_1854719989680188ee2ba3d);
+jQuery(function(){indexmenu_1854719989680188ee2ba3d.init(1,0,"",1,0);});
+//--><!]]>
+</script>
+</body>          </div>
+  </div>
+</aside>
+
+        <!-- ********** CONTENT ********** -->
+        <article id="dokuwiki__content" class="col-sm-9 col-md-9 " >
+
+          <div class="panel panel-default" > 
+            <div class="page group panel-body">
+
+                                          
+              <div class="toc-affix pull-right hidden-print" data-spy="affix" data-offset-top="150">
+                                <body><div id="dw__toc" class="panel panel-default">
+<h3 class="toggle panel-heading">Table of Contents</h3>
+<div class="panel-body">
+
+<ul class="toc nav nav-pills nav-stacked">
+<li class="level1"><a href="map_to_table.html#map_to_table">Map to Table</a>
+<ul class="toc nav nav-pills nav-stacked">
+<li class="level2"><a href="map_to_table.html#input_output_property">Input/Output Property</a></li>
+<li class="level2"><a href="map_to_table.html#output_property">Output Property</a></li>
+</ul></li>
+</ul>
+</div>
+</div>
+<!-- TOC END -->
+</body>              </div>
+
+              
+<!-- wikipage start -->
+
+
+
+<h1 class="sectionedit1" id="map_to_table">Map to Table</h1>
+<div class="level1">
+<div class="table sectionedit2"><table class="inline">
+	<tr class="row0">
+		<td class="col0">Block Group:</td><td class="col1"><a href="home.html" class="wikilink1" title="dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:home"> Table Operations</a></td>
+	</tr>
+	<tr class="row1">
+		<td class="col0">Icon:</td><td class="col1">no icon</td>
+	</tr>
+</table></div>
+
+<p>
+<a href="../../../../_media/dglux5/dataflow/dataflow_blocks_reference/dataflow_block_map_to_table.png" class="media" title="dglux5_wiki:dataflow:dataflow_blocks_reference:dataflow_block_map_to_table.png"><img src="../../../../_media/dglux5/dataflow/dataflow_blocks_reference/dataflow_block_map_to_table.png" class="media" loading="lazy" title="Map to Table block" alt="Map to Table block" /></a>
+</p>
+
+<p>
+The Map to Table block converts a single table row or a map (object) into a table with one row.
+</p>
+
+<p>
+When you add this block from the palette, <strong>input</strong> is bound to <code>@parent.@data</code>. Inside a repeater item, this is the data of the current row, so the block returns that row as a one-row table.
+</p>
+
+<p>
+For information on using dataflow blocks, see <a href="../../home.html" class="wikilink1" title="dglux5_wiki:dataflow:home">Dataflow</a>.
+</p>
+
+<p>
+For answers to some common questions about working with tables, see <a href="../../working_with_tables/home.html" class="wikilink1" title="dglux5_wiki:dataflow:working_with_tables:home">Tables</a>.
+</p>
+<hr />
+
+</div>
+
+<h2 class="sectionedit3" id="input_output_property">Input/Output Property</h2>
+<div class="level2">
+
+<p>
+The following property of the Map to Table block can take input and give output.
+</p>
+<ul>
+<li class="level1"><div class="li"> input</div>
+</li>
+</ul>
+
+<p>
+<strong>input</strong> receives the value to convert:
+</p>
+<ul>
+<li class="level1"><div class="li"> <strong>A table row</strong> (for example a repeater item&#039;s <code>@data</code>): The output is a table with the same columns as the source table and only this row. The row keeps its original row number.</div>
+</li>
+<li class="level1"><div class="li"> <strong>A map</strong>: The output is a table with one column for each key in the map and one row that holds the values.</div>
+</li>
+<li class="level1"><div class="li"> <strong>A table</strong>: The table is returned unchanged.</div>
+</li>
+</ul>
+
+<p>
+For any other value, <strong>output</strong> is null.
+</p>
+<hr />
+
+</div>
+
+<h2 class="sectionedit4" id="output_property">Output Property</h2>
+<div class="level2">
+
+<p>
+The following property of the Map to Table block can give output but cannot take input.
+</p>
+<ul>
+<li class="level1"><div class="li"> output <em>(table)</em></div>
+</li>
+</ul>
+
+<p>
+<strong>output</strong> returns the one-row table.
+</p>
+<hr />
+<div class="wrap_left plugin_wrap">
+<p>
+<a href="series_realtime_recorder.html" class="wikilink1" title="dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:series_realtime_recorder">Previous: Series Realtime Recorder</a>
+</p>
+</div><div class="wrap_right plugin_wrap">
+<p>
+<a href="../date_time_operations/home.html" class="wikilink1" title="dglux5_wiki:dataflow:dataflow_blocks_reference:date_time_operations:home">Next: Date Time Operations</a>
+</p>
+</div>
+</div>
+
+<!-- wikipage stop -->
+
+                            
+            </div>
+          </div>
+
+        </article>
+
+        
+      </main>
+
+      <footer id="dokuwiki__footer" class="small">
+
+        <a href="javascript:void(0)" class="back-to-top hidden-print btn btn-default btn-sm" title="skip to content" id="back-to-top"><i class="glyphicon glyphicon-chevron-up"></i></a>
+
+        <div class="text-right">
+
+                    <span class="docInfo">
+            <bdi>dglux5_wiki/home.txt</bdi> · Last modified: 2021/09/20 14:35 (external edit)          </span>
+          
+          
+        </div>
+
+                <div class="text-center hidden-print">
+          <p id="dw__license">
+                      </p>
+          <p id="dw__badges">
+    <a href="http://getbootstrap.com" title="Built with Bootstrap 3" target="_blank">
+    <img src="../../../../lib/tpl/bootstrap3/images/button-bootstrap3.png" width="80" height="15" alt="Built with Bootstrap 3" />
+  </a>
+  <a href="http://www.php.net" title="Powered by PHP" target="_blank">
+    <img src="../../../../lib/tpl/dokuwiki/images/button-php.gif" width="80" height="15" alt="Powered by PHP" />
+  </a>
+  <a href="http://validator.w3.org/check/referer" title="Valid HTML5" target="_blank">
+    <img src="../../../../lib/tpl/dokuwiki/images/button-html5.png" width="80" height="15" alt="Valid HTML5" />
+  </a>
+  <a href="http://jigsaw.w3.org/css-validator/check/referer?profile=css3" title="Valid CSS" target="_blank">
+    <img src="../../../../lib/tpl/dokuwiki/images/button-css.png" width="80" height="15" alt="Valid CSS" />
+  </a>
+  <a href="http://dokuwiki.org/" title="Driven by DokuWiki" target="_blank">
+    <img src="../../../../lib/tpl/dokuwiki/images/button-dw.png" width="80" height="15" alt="Driven by DokuWiki" />
+  </a>
+</p>
+        </div>
+        
+      </footer>
+
+      
+    </div><!-- /site -->
+
+    <div class="no"></div>
+    <div id="screen__mode" class="no">
+      <span class="visible-xs"></span>
+      <span class="visible-sm"></span>
+      <span class="visible-md"></span>
+      <span class="visible-lg"></span>
+    </div>
+  </div>
+  <!--[if lte IE 8 ]></div><![endif]-->
+</body>
+</html>
