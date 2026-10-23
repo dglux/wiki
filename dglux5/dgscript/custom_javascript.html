@@ -554,16 +554,17 @@ indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dgscript:model_functions',381
 indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dgscript:http_and_utilities',382,371,"HTTP Requests and Browser Utilities",0,0,0);
 indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dgscript:examples',383,371,"Examples",0,0,0);
 indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dgscript:custom_javascript',384,371,"Custom JS Components",0,0,0);
-indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dgscript:custom_div',385,371,"Using Custom div Elements",0,0,0);
-indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:support',386,0,"Support",'dglux5_wiki:support:home',1,0);
-indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:releases',387,0,"Release Notes",'dglux5_wiki:releases',1,0);
-indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:releases:1415',388,387,"Version 1.1.8750 (March 2019)",0,0,0);
-indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:releases:8980',389,387,"Version 1.1.8980 (August 2019)",0,0,0);
-indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:releases:9012',390,387,"Version 1.1.9012 (September 2019)",0,0,0);
-indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:releases:9198',391,387,"Version 1.1.9198 (April 2020)",0,0,0);
-indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:releases:9235',392,387,"Version 1.1.9235 (May 2020)",0,0,0);
-indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:releases:9238',393,387,"Version 1.1.9238 (July 2020)",0,0,0);
-indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:releases:9443',394,387,"Version 1.1.9443 (March 2021)",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dgscript:js_widget',385,371,"JS Widget Components",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:dgscript:custom_div',386,371,"Using Custom div Elements",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:support',387,0,"Support",'dglux5_wiki:support:home',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:releases',388,0,"Release Notes",'dglux5_wiki:releases',1,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:releases:1415',389,388,"Version 1.1.8750 (March 2019)",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:releases:8980',390,388,"Version 1.1.8980 (August 2019)",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:releases:9012',391,388,"Version 1.1.9012 (September 2019)",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:releases:9198',392,388,"Version 1.1.9198 (April 2020)",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:releases:9235',393,388,"Version 1.1.9235 (May 2020)",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:releases:9238',394,388,"Version 1.1.9238 (July 2020)",0,0,0);
+indexmenu_1854719989680188ee2ba3d.add('dglux5_wiki:releases:9443',395,388,"Version 1.1.9443 (March 2021)",0,0,0);
 document.write(indexmenu_1854719989680188ee2ba3d);
 jQuery(function(){indexmenu_1854719989680188ee2ba3d.init(1,0,"",1,0);});
 //--><!]]>
@@ -604,7 +605,11 @@ jQuery(function(){indexmenu_1854719989680188ee2ba3d.init(1,0,"",1,0);});
 
 <h1 class="sectionedit1" id="custom_js_components">Custom JS Components</h1>
 <div class="level1">
-
+<div class="wrap_tip plugin_wrap">
+<p>
+To run JavaScript directly in the page as a component with its own properties, without an IFrame, see <a href="js_widget.html" class="wikilink1" title="dglux5_wiki:dgscript:js_widget">JS Widget Components</a> and the <a href="https://github.com/dglux/dglux5_js_lib" class="urlextern" target="_blank" title="https://github.com/dglux/dglux5_js_lib" rel="ugc nofollow noopener">dglux5_js_lib</a> project on GitHub.
+</p>
+</div>
 <p>
 <a href="https://vimeo.com/136383194" class="urlextern" target="_blank" title="https://vimeo.com/136383194" rel="ugc nofollow noopener"> This video</a> shows how to use a custom, <a href="../widgets_and_property_inspector/components/iframe/home.html" class="wikilink1" title="dglux5_wiki:widgets_and_property_inspector:components:iframe:home">IFrame</a>-based <a href="../widgets_and_property_inspector/components/symbols/home.html" class="wikilink1" title="dglux5_wiki:widgets_and_property_inspector:components:symbols:home">symbol</a> to implement your custom JavaScript:
 </p>
@@ -675,7 +680,7 @@ The symbol properties now correspond with the dynamic properties in your script.
 
 </div>
 
-<h2 class="sectionedit6" id="example_html">Example HTML</h2>
+<h2 class="sectionedit8" id="example_html">Example HTML</h2>
 <div class="level2">
 <pre class="code html4strict"><span class="sc0">&lt;!DOCTYPE html&gt;</span>
 <span class="sc-1">&lt;!--  https://github.com/web-animations/web-animations-js --&gt;</span>
@@ -755,7 +760,7 @@ The symbol properties now correspond with the dynamic properties in your script.
 
 </div>
 
-<h2 class="sectionedit7" id="dgframejs">dgframe.js</h2>
+<h2 class="sectionedit9" id="dgframejs">dgframe.js</h2>
 <div class="level2">
 <pre class="code javascript"><span class="co1">// test if a parameter value is dglux table</span>
 <span class="kw1">function</span> dgIsParamTable<span class="br0">&#40;</span>val<span class="br0">&#41;</span><span class="br0">&#123;</span>
@@ -805,7 +810,7 @@ window.<span class="me1">addEventListener</span><span class="br0">&#40;</span><s
 
 </div>
 
-<h2 class="sectionedit8" id="changing_the_symbol_properties_from_javascript">Changing the Symbol Properties from JavaScript</h2>
+<h2 class="sectionedit10" id="changing_the_symbol_properties_from_javascript">Changing the Symbol Properties from JavaScript</h2>
 <div class="level2">
 
 <p>
